@@ -1,55 +1,63 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>HTML — Tables & Forms</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Tables & Forms</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to main content</a>
 
-  <header><div class="container"><h1>Tables & Forms</h1></div></header>
+<header>
+  <h1>Tables & Forms</h1>
+  <p>
+    Understanding tables and forms helped me organize data and create interactive
+    pages where users can submit information easily.
+  </p>
+</header>
 
-  <nav>
-    <ul class="nav-list container">
-      <li><a href="index.html">Home</a></li><li><a href="editor.html">Editor</a></li><li><a href="semantic.html">Semantic</a></li><li><a href="tables-forms.html">Tables & Forms</a></li><li><a href="css-layout.html">CSS Layout</a></li><li><a href="accessibility.html">Accessibility</a></li><li><a href="validation.html">Validation</a></li><li><a href="ethics.html">Ethics</a></li>
-    </ul>
-  </nav>
+<nav>
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="code_editor.html">Code Editor</a></li>
+    <li><a href="semantic.html">Semantic HTML</a></li>
+    <li><a href="tables_forms.html">Tables & Forms</a></li>
+    <li><a href="styling_layout.html">CSS Layout</a></li>
+    <li><a href="accessibility.html">Accessibility</a></li>
+    <li><a href="validation.html">Validation</a></li>
+    <li><a href="ethics.html">Ethics</a></li>
+  </ul>
+</nav>
 
-  <main id="main" class="container">
-    <section>
-      <h2>Working with Tables & Forms</h2>
+<main>
+  <section>
+    <h2>Video Resource</h2>
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/0xMQfnTU6oo"
+      title="HTML Tables and Forms"
+      allowfullscreen>
+    </iframe>
+  </section>
 
-      <article>
-        <h3>Video: HTML Forms Tutorial</h3>
-        <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/0sOvCWFmrtA" title="HTML Forms tutorial" allowfullscreen></iframe></div>
-        <p>This tutorial shows building accessible forms with labels, required attributes, and validation tips I used in class projects.</p>
-      </article>
+  <section>
+    <h2>Article Resource</h2>
+    <p>
+      This article helped me understand how to structure tables and forms properly,
+      which is crucial for accessibility and user experience.
+    </p>
+    <a class="article-link"
+       href="https://www.w3schools.com/html/html_tables.asp"
+       target="_blank">
+       HTML Tables & Forms – W3Schools
+    </a>
+  </section>
+</main>
 
-      <article>
-        <h3>Article: W3Schools Forms Reference</h3>
-        <p><a class="article-link" href="https://www.w3schools.com/html/html_forms.asp" target="_blank" rel="noopener">W3Schools — HTML Forms</a></p>
-        <p>Quick reference for input types, attributes, and examples. Helpful when I needed to check syntax fast.</p>
-      </article>
+<footer>
+  <p>
+    <a href="https://github.com/dedes-crypto" target="_blank">My GitHub Profile</a>
+  </p>
+</footer>
 
-      <article>
-        <h3>Example: Accessible Table</h3>
-        <table aria-describedby="table-desc">
-          <caption id="table-desc">Sample schedule table</caption>
-          <thead>
-            <tr><th scope="col">Day</th><th scope="col">Topic</th><th scope="col">Time</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>Mon</td><td>HTML</td><td>9:00 AM</td></tr>
-            <tr><td>Wed</td><td>CSS</td><td>11:00 AM</td></tr>
-          </tbody>
-        </table>
-        <p>Use <code>&lt;caption&gt;</code> and <code>scope</code> on headers to make tables accessible.</p>
-      </article>
-    </section>
-  </main>
-
-  <footer><div class="container"><p>© 2025 Dedes — <a href="https://github.com/dedes-crypto" target="_blank">GitHub</a></p></div></footer>
 </body>
 </html>
