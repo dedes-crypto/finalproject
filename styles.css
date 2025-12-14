@@ -19,7 +19,7 @@ header {
 
 /* Navigation */
 nav {
-  background: rgba(0, 85, 170, 0.9); /* Semi-transparent blue */
+  background: #0055aa;
 }
 
 nav ul {
@@ -31,7 +31,7 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 20px; /* More space between links */
+  margin: 0 15px; 
 }
 
 nav a {
@@ -39,13 +39,12 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s, background-color 0.3s;
-  padding: 8px 15px; /* Increased padding for better clickability */
-  border-radius: 5px; /* Rounded corners */
+  padding: 8px 15px; 
+  border-radius: 5px; 
 }
 
 nav a:hover {
-  background-color: #ffcc00; /* Yellow hover background */
-  color: #003366; /* Darker blue text on hover */
+  color: #ffcc00;
 }
 
 /* Main Content and Sections */
@@ -80,11 +79,10 @@ ul {
 
 /* Footer */
 footer {
-  background: rgba(0, 51, 102, 0.9); /* Dark with transparency */
+  background: #003366;
   color: white;
   padding: 20px;
   text-align: center;
-  box-shadow: 0 -4px 10px rgba(0,0,0,0.2); /* Shadow above footer */
 }
 
 footer a {
