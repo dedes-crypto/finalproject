@@ -1,39 +1,63 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>CSS — Styling & Layout</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>CSS Layout</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to main content</a>
-  <header><div class="container"><h1>CSS Styling & Layout</h1></div></header>
 
-  <nav>
-    <ul class="nav-list container">
-      <li><a href="index.html">Home</a></li><li><a href="editor.html">Editor</a></li><li><a href="semantic.html">Semantic</a></li><li><a href="tables-forms.html">Tables & Forms</a></li><li><a href="css-layout.html">CSS Layout</a></li><li><a href="accessibility.html">Accessibility</a></li><li><a href="validation.html">Validation</a></li><li><a href="ethics.html">Ethics</a></li>
-    </ul>
-  </nav>
+<header>
+  <h1>CSS Layout</h1>
+  <p>
+    Learning CSS layout techniques like Flexbox and Grid helped me create responsive
+    and well-structured web pages.
+  </p>
+</header>
 
-  <main id="main" class="container">
-    <section>
-      <h2>Flexbox & Grid</h2>
+<nav>
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="code_editor.html">Code Editor</a></li>
+    <li><a href="semantic.html">Semantic HTML</a></li>
+    <li><a href="tables_forms.html">Tables & Forms</a></li>
+    <li><a href="styling_layout.html">CSS Layout</a></li>
+    <li><a href="accessibility.html">Accessibility</a></li>
+    <li><a href="validation.html">Validation</a></li>
+    <li><a href="ethics.html">Ethics</a></li>
+  </ul>
+</nav>
 
-      <article>
-        <h3>Video: Flexbox & Grid Overview</h3>
-        <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/JJSoEo8JSnc" title="Flexbox & Grid" allowfullscreen></iframe></div>
-        <p>This video helped me decide when to use Flexbox for one-dimensional layout and Grid for 2D layouts.</p>
-      </article>
+<main>
+  <section>
+    <h2>Video Resource</h2>
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/jV8B24rSN5o"
+      title="CSS Layout Techniques"
+      allowfullscreen>
+    </iframe>
+  </section>
 
-      <article>
-        <h3>Article: CSS-Tricks Flexbox Guide</h3>
-        <p><a class="article-link" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="noopener">CSS-Tricks — A Guide to Flexbox</a></p>
-        <p>Useful cheat-sheet and visual diagrams I used while building layouts in projects.</p>
-      </article>
-    </section>
-  </main>
+  <section>
+    <h2>Article Resource</h2>
+    <p>
+      This article helped me understand how to use Flexbox and Grid effectively for
+      building modern website layouts.
+    </p>
+    <a class="article-link"
+       href="https://css-tricks.com/snippets/css/complete-guide-grid/"
+       target="_blank">
+       Complete Guide to CSS Grid – CSS-Tricks
+    </a>
+  </section>
+</main>
 
-  <footer><div class="container"><p>© 2025 Dedes — <a href="https://github.com/dedes-crypto" target="_blank">GitHub</a></p></div></footer>
+<footer>
+  <p>
+    <a href="https://github.com/dedes-crypto" target="_blank">My GitHub Profile</a>
+  </p>
+</footer>
+
 </body>
 </html>
