@@ -46,9 +46,17 @@ nav a {
   font-weight: bold;
 }
 
-nav a:hover {
+/* General Links */
+a {
+  color: #003366;
+  transition: color 0.3s ease;
+}
+
+/* Hover Effect for All Links */
+a:hover {
   color: #ffcc00;
 }
+
 
 /* Main Content */
 main {
@@ -122,5 +130,38 @@ footer a {
 
   .resource-card iframe {
     height: 250px;
+  }
+}
+/* Page Background Enhancement */
+body {
+  background: linear-gradient(
+    to bottom,
+    #e6edf5,
+    #f4f4f4
+  );
+}
+/* Section Cards */
+section {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+nav a {
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: rgba(255, 204, 0, 0.2);
+}
+@media (max-width: 768px) {
+  nav ul {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  body {
+    font-size: 16px;
   }
 }
